@@ -1,0 +1,59 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-image: url('future.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff; 
+}
+
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.header {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.payment-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.pay-button {
+    padding: 15px 30px;
+    background-color: #ff6384; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.pay-button:hover {
+    background-color: #ff435a; 
+}
+
+
+
+.qr-code {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.qr-code img {
+    width: 200px;
+    height: 200px;
+}

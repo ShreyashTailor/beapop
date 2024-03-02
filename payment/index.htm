@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Make a Payment</h1>
+   
+        <div class="payment-section" id="paytm-section">
+            <h2 class="section-title">Pay with Paytm</h2>
+            <button class="pay-button" id="paytm-pay-button" onclick="paytm()">Pay with Paytm</button>
+           
+            <div class="qr-code">
+              
+            </div>
+        </div>
+        <div class="payment-section" id="razorpay-section">
+            <h2 class="section-title">Pay with Razorpay</h2>
+            <button class="pay-button" id="razorpay-pay-button" onclick="razor()">Pay with Razorpay</button>
+        </div>
+    
+        <div class="payment-section" id="gpay-section">
+            <h2 class="section-title">Pay with Google Pay</h2>
+            <button class="pay-button" id="gpay-pay-button">Pay with Google Pay</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
